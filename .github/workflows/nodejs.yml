@@ -25,3 +25,6 @@ jobs:
         npm test
       env:
         CI: true
+    - name: run tes
+      run: |
+        node server.js
